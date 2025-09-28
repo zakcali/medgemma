@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-A user-friendly Gradio web interface for interacting with locally hosted, OpenAI-compatible medical large language models. This application supports both text-to-text and image-to-text (multimodal) conversations, making it a powerful tool for medical AI research and experimentation.
+A user-friendly Gradio web interface for interacting with locally hosted, OpenAI-compatible medical Gemma large language models from Google. This application supports both text-to-text and image-to-text (multimodal) conversations, making it a powerful tool for medical AI research and experimentation.
 
 
 
