@@ -101,7 +101,29 @@ source venv/bin/activate
 python medgemma-gradio.py
 ```
 
-The script will output a local URL (e.g., `http://0.0.0.0:7860`). Open this URL in your web browser to access the chatbot interface.
+## Running the Application
+
+You can launch the application in several ways depending on your needs.
+
+### To run locally on your machine:
+Use the following line in the script:
+```python
+demo.launch()
+```
+
+### To serve to other devices on your local network (LAN):
+Modify the last line to include your machine's local IP address.
+```python
+# Replace "192.168.0.xx" with your actual LAN IP address
+demo.launch(server_name="192.168.0.xx", server_port=7860)
+```
+
+### To share publicly over the internet:
+Set the `share` parameter to `True`. Gradio will generate a temporary public URL for you.
+```python
+demo.launch(share=True)
+```
+For more details, see the official Gradio guide on [Sharing Your App](https://www.gradio.app/guides/sharing-your-app).
 
 ## How to Use
 
