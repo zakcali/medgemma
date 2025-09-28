@@ -101,7 +101,7 @@ source venv/bin/activate
 python medgemma-gradio.py
 ```
 
-The script will output a local URL (e.g., `http://192.168.0.35:7860`). Open this URL in your web browser to access the chatbot interface.
+The script will output a local URL (e.g., `http://0.0.0.0:7860`). Open this URL in your web browser to access the chatbot interface.
 
 ## How to Use
 
