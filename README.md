@@ -75,10 +75,10 @@ Install the required Python packages for both the vLLM server and the Gradio cli
 
 ```bash
 # For the vLLM server
-pip install vllm uv
+uv pip install vllm uv
 
 # For the Gradio frontend
-pip install gradio openai pillow
+uv pip install gradio openai pillow
 ```
 
 ### 3. Launch the vLLM Backend Server
@@ -97,8 +97,7 @@ Leave this terminal running. It will handle all the model inference requests. By
 Open a second terminal window, navigate to the repository directory, and run the Python script.
 
 ```bash
-source venv/bin/activate
-python medgemma-gradio.py
+uv run medgemma-gradio.py
 ```
 
 ## Running the Application
