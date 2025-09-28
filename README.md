@@ -86,7 +86,6 @@ uv pip install gradio openai pillow
 Open a new terminal window, activate your virtual environment, and start the vLLM server with the command specified above.
 
 ```bash
-source venv/bin/activate
 uv run vllm serve google/medgemma-27b-it --tensor-parallel-size 4 --async-scheduling
 ```
 
