@@ -137,7 +137,7 @@ For more details, see the official Gradio guide on [Sharing Your App](https://ww
     -   Click **"🗑️ New Chat"** to clear the conversation history and start fresh. This will also re-enable the image upload component.
     -   Click **"⬇️ Download Last Response"** to save the model's output.
 
-## Huggingface transformers library examples are jokes
+## The examples for MedGemma models in the Hugging Face Transformers library are not very useful.
 
 ### The `transformers` Library (`model.generate`) - The "Research" Approach
 
