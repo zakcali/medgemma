@@ -56,7 +56,7 @@ The `medgemma-gradio.py` script requires the following Python libraries:
 
 ## Installation and Setup
 
-Follow these steps to get the complete application running.
+Follow these steps to get the complete application running. I prefer uv package installer and resolver
 
 ### 1. Set Up the Environment
 
@@ -75,7 +75,7 @@ Install the required Python packages for both the vLLM server and the Gradio cli
 
 ```bash
 # For the vLLM server
-uv pip install vllm uv
+uv pip install vllm
 
 # For the Gradio frontend
 uv pip install gradio openai pillow
