@@ -63,8 +63,8 @@ Follow these steps to get the complete application running.
 First, clone this repository and create a Python virtual environment.
 
 ```bash
-git clone <your-repository-url>
-cd <your-repository-name>
+git clone https://github.com/zakcali/medgemma.git
+cd medgemma
 python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 ```
