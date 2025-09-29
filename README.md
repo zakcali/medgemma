@@ -63,8 +63,8 @@ Follow these steps to get the complete application running. I prefer uv package 
 First, clone this repository and create a Python virtual environment.
 
 ```bash
-git clone https://github.com/zakcali/medgemma.git
-cd medgemma
+git clone https://github.com/zakcali/medgemma-gradio.git
+cd medgemma-gradio
 python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 ```
